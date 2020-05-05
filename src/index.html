@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="/css/style.css">
+</head>
+<body>
+<header>
+    <h1>Feedback Form</h1>
+
+</header>
+<main>
+    <div class="container">
+        
+        <form action="https://classes.codingbootcamp.cz/assets/classes/request-visualization/script.php">
+
+            <label class="type1" for="name">
+                NAME
+            </label>
+                <br>
+            <input id="name" class="input" type="text" value="" name="fname" required>
+                <br>
+            <label class="type1" for="email">
+                EMAIL
+            </label>
+            <br>
+                <input id="email" class="input" type="email" value="" name="email"required>
+                <br>
+            <label class="type1" for="batch">
+                CHOOSE BATCH
+            </label>
+            <br>
+            
+            <select class="input" name="batch">
+
+                <option value="Spring2020" selected="selected">Spring 2020</option>
+            
+                <option value="Summer2020">Summer 2020</option>
+                <option value="Fal2020">Fall 2020</option>
+                <option value="Summer2020">winter 2020</option>
+            
+            </select>
+            <div class="excomp">
+                <P class="type1">DID YOU COMPLETE ALL THE EXERISES FROM WEEK 1?</P>
+                <label class="type2">
+                <input type="radio" name="exercises_comp" value="Yes">Yes
+                </label>
+                <br>
+                <label class="type2">
+                <input type="radio" name="exercises_comp" value="No">No
+                </label>
+                <br>
+            </div>
+
+            <div class="selectors">
+                    <p class="type1">CHOOSE YOUR FAVORITE EXERCISES</p>
+                    
+                <input type="checkbox" name="css_selectors" id="css_selectors">
+                <label class="type2" for="css_selectors">CSS selecctors</label>
+                <br>
+                <input type="checkbox" name="Book page" id="bookpage">
+                <label class="type2" for="bookpage">Book page</label>
+                <br>
+                <input type="checkbox" name="Befast" id="Befast">
+                <label class="type2" for="Befast">Belfast International Kindergarten</label>
+                <br>
+                <input type="checkbox" name="Crowns" id="Crowns">
+                <label class="type2" for="Crowns">Crownsnest Retreat</label>
+                <br>
+                <input type="checkbox" name="google" id="google">
+                <label class="type2" for="google">Google page</label>
+                <br>
+                <input type="checkbox" name="Docuentation" id="Docuentation">
+                <label class="type2" for="Docuentation">Docuentation page</label>
+                <br>
+                <input type="checkbox" name="Aneta" id="Aneta">
+                <label class="type2" for="Aneta">Aneta Webbie Personal Portfolio</label>
+            </div>
+                <br>
+        
+            <label class="type1" for="feedbak">WRITE FEEDBACK</label>
+            <br>
+            <input class="input" type="text" value="" id="feedback" name="feedback">
+        <div class="submitbtn">
+            <input type="submit">
+        </div>
+    </form>
+        
+    </div>
+</main>
+</body>
+</html>
